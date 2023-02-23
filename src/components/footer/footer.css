@@ -1,0 +1,34 @@
+.footer {
+    background-color: #303846;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.github-icon,
+.telegram-icon,
+.linkedin-icon {
+    height: 40px;
+    width: 40px;
+    opacity: 40%;
+    margin: 0 5px;
+}
+
+.github-icon:hover,
+.telegram-icon:hover,
+.linkedin-icon:hover {
+    opacity: 100%;
+}
+
+.footer div span a {
+    transition: .3s ease-in-out;
+}
+
+.footer div span a:hover {
+    color: #09d3ac;
+}

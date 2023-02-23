@@ -1,0 +1,31 @@
+.section-error {
+    width: fit-content;
+    margin: 200px auto;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.section-error p {
+    font-size: 22px;
+}
+
+.section-error i {
+    opacity: 40%;
+}
+
+.error-img {
+    background: url('../../image/StikmenError.svg') no-repeat;
+    background-size: contain;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -110px;
+    left: 30px;
+}
+
+@media (max-width: 340px) {
+    .error-img {
+        left: 0;
+    }
+}

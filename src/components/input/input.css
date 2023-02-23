@@ -1,0 +1,32 @@
+.input {
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    height: 38px;
+    color: #a7b3cb;
+    background-color: #424b5f;
+    box-sizing: border-box;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.small {
+    width: 50px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #a7b3cb;
+    color: #424b5f;
+}
+
+.input:focus {
+    background-color: #2c323f;
+}
+
+.small:focus {
+    background-color: transparent;
+}
+
+.input::placeholder {
+    color: #a7b3cb;
+}
