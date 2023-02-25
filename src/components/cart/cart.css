@@ -49,6 +49,7 @@
     position: sticky;
     top: -1px;
     left: 0;
+    z-index: 111;
 }
 
 .goods-description {
@@ -72,6 +73,7 @@
     position: sticky;
     bottom: -1px;
     left: 0;
+    z-index: 111;
 }
 
 .goods-footer-content {

@@ -6,15 +6,15 @@ export const Footer = () => {
         <footer className='footer'>
             <div className='social'>
 
-                <a target='_blank' href='https://github.com/SmirnovAleksey'>
+                <a target='_blank' rel="noopener noreferrer" href='https://github.com/SmirnovAleksey'>
                     <FaGithub className='github-icon' />
                 </a>
 
-                <a target='_blank' href='https://t.me/AlekseyNorby'>
+                <a target='_blank' rel="noopener noreferrer" href='https://t.me/Smirnov_Oleksii'>
                     <FaTelegram className='telegram-icon' />
                 </a>
 
-                <a target='_blank' href='https://linkedin.com/in/oleksii-smirnov-57302b266/'>
+                <a target='_blank' rel="noopener noreferrer" href='https://linkedin.com/in/oleksii-smirnov-57302b266/'>
                     <FaLinkedin className='linkedin-icon' />
                 </a>
 
@@ -23,7 +23,7 @@ export const Footer = () => {
             <div>
                 <span>
                     Performed in
-                    <a target="_blank" href='https://prometheus.org.ua/'> Prometheus </a>
+                    <a target="_blank" rel="noopener noreferrer" href='https://prometheus.org.ua/'> Prometheus </a>
                     © 2022
                 </span>
             </div>

@@ -60,7 +60,7 @@ section .sign-container .sign-form {
 }
 
 .login-incorrect {
-    color: rgb(245, 128, 128);
+    color: gray;
     font-size: 0.7em;
 }
 

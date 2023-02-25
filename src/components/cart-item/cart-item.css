@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .single-good .image-wrapper .cart-img {
@@ -35,6 +36,21 @@
 .item-info span:last-child {
     min-width: 38px;
     text-align: end;
+}
+
+.delete-button {
+    height: 26px;
+    width: 26px;
+    color: rgb(195, 195, 195);
+    position: absolute;
+    cursor: pointer;
+    bottom: 5px;
+    right: 5px;
+    transition: .3s ease-in-out;
+}
+
+.delete-button:hover {
+    color: gray;
 }
 
 @media (max-width: 700px) {
